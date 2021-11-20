@@ -114,7 +114,7 @@ function addDepartment(){
             ("${res.dep}")`;
             db.query(query, (err)=>{
                 if (err) {
-                    console.error("Oops! Something went wrong!");
+                    console.error("I entered the wrong information!");
                 }
                 else{
                     console.log("\n\n" + res.dep + " has been added successfully")
