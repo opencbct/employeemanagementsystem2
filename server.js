@@ -92,7 +92,7 @@ function viewEmployees(){
         ON employee.manager_id = manager.id;`;
     db.query(query, (err, res)=>{
         if (err) {
-            console.error("Oops! Something went wrong!");
+            console.error("OI entered the wrong information.!");
         }
         else{
             console.table(res);
