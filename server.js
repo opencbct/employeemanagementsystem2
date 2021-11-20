@@ -64,7 +64,7 @@ function viewRoles(){
      FROM roles JOIN department ON roles.department_id = department.id;`;
     db.query(query, (err, res)=>{
         if (err) {
-            console.error("Oops! Something went wrong!");
+            console.error("You entered the wrong information.!");
         }
         else{
             console.table(res);
