@@ -122,7 +122,7 @@ function addDepartment(){
             });
         }
         else{
-            console.log("\n Something went wrong. Please try again\n\n");
+            console.log("\n I entered the wrong information.. Please try again\n\n");
         }
         transition();
     })
