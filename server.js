@@ -28,7 +28,7 @@ function transition(){
               return;
           }
           else{
-              console.log("\n Have a nice day.\n\n");
+              console.log("\n See you soon.\n\n");
               process.exit();
           }
       })
